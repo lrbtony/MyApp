@@ -8,15 +8,38 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+CFAbsoluteTime StartTime;
+
+@interface AppDelegate ()<COSTouchVisualizerWindowDelegate>
 
 @end
 
 @implementation AppDelegate
 
+- (COSTouchVisualizerWindow *)window {
+    static COSTouchVisualizerWindow *visWindow = nil;
+    if (!visWindow) visWindow = [[COSTouchVisualizerWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    visWindow.touchVisualizerWindowDelegate = self;
+    [visWindow setFillColor:[UIColor colorWithWhite:1 alpha:0.7]];
+    [visWindow setStrokeColor:[UIColor colorWithWhite:1 alpha:1]];
+//    [visWindow setTouchAlpha:0.4];
+    // Ripple Color
+    [visWindow setRippleFillColor:[UIColor colorWithWhite:0 alpha:0.7]];
+    [visWindow setRippleStrokeColor:[UIColor colorWithWhite:0 alpha:1]];
+    [visWindow setRippleAlpha:0.1];
+//    visWindow.stationaryMorphEnabled = NO;
+    return visWindow;
+}
+- (BOOL)touchVisualizerWindowShouldAlwaysShowFingertip:(COSTouchVisualizerWindow *)window
+{
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    dispatch_async(dispatch_get_main_queue(), ^{
+        GJLog(@"Lauched in %f seconds.", (CFAbsoluteTimeGetCurrent() - StartTime));
+    });
     return YES;
 }
 

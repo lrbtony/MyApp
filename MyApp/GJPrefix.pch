@@ -1,0 +1,26 @@
+//
+//  GJPrefix.pch
+//  MyApp
+//
+//  Created by lrb on 15/12/28.
+//  Copyright © 2015年 WanRong. All rights reserved.
+//
+
+#ifndef GJPrefix_pch
+#define GJPrefix_pch
+
+
+//如果定义了这个宏就可以方法中可以"mas_"前缀
+#define MAS_SHORTHAND
+
+//如果定义这个那就支持自动加包(把int,float,double,结构体包装成为对象)
+#define MAS_SHORTHAND_GLOBALS
+
+#ifdef DEBUG
+//    #define CZLog(...) NSLog(__VA_ARGS__)//开启Debug模式
+#define GJLog(...) NSLog(@"%s %d\n %@\n\n",__func__,__LINE__ ,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define GJLog(...) //关闭Log输入
+#endif
+
+#endif /* GJPrefix_pch */

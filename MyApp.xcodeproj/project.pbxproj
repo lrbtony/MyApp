@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D711A601C464193001ED080 /* COSTouchVisualizerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D711A5F1C464193001ED080 /* COSTouchVisualizerWindow.m */; };
 		2DEAABEC1C310DB900E6F52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAABEB1C310DB900E6F52C /* main.m */; };
 		2DEAABEF1C310DB900E6F52C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAABEE1C310DB900E6F52C /* AppDelegate.m */; };
 		2DEAABF21C310DB900E6F52C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAABF11C310DB900E6F52C /* ViewController.m */; };
@@ -15,6 +16,17 @@
 		2DEAABFA1C310DB900E6F52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEAABF81C310DB900E6F52C /* LaunchScreen.storyboard */; };
 		2DEAAC051C310DB900E6F52C /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC041C310DB900E6F52C /* MyAppTests.m */; };
 		2DEAAC101C310DB900E6F52C /* MyAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC0F1C310DB900E6F52C /* MyAppUITests.m */; };
+		2DEAAC371C31101B00E6F52C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC211C31101B00E6F52C /* MASCompositeConstraint.m */; };
+		2DEAAC381C31101B00E6F52C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC241C31101B00E6F52C /* MASConstraint.m */; };
+		2DEAAC391C31101B00E6F52C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC261C31101B00E6F52C /* MASConstraintMaker.m */; };
+		2DEAAC3A1C31101B00E6F52C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC281C31101B00E6F52C /* MASLayoutConstraint.m */; };
+		2DEAAC3B1C31101B00E6F52C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC2C1C31101B00E6F52C /* MASViewAttribute.m */; };
+		2DEAAC3C1C31101B00E6F52C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC2E1C31101B00E6F52C /* MASViewConstraint.m */; };
+		2DEAAC3D1C31101B00E6F52C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC301C31101B00E6F52C /* NSArray+MASAdditions.m */; };
+		2DEAAC3E1C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC331C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2DEAAC3F1C31101B00E6F52C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC351C31101B00E6F52C /* View+MASAdditions.m */; };
+		2DEAAC431C313BB700E6F52C /* GJPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAAC421C313BB700E6F52C /* GJPlayController.m */; };
+		2DF9DF7B1C33D00400118112 /* Final Fantasy XIV Heavensward-Original Sound Track 06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9DF7A1C33D00400118112 /* Final Fantasy XIV Heavensward-Original Sound Track 06.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D711A5E1C464193001ED080 /* COSTouchVisualizerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COSTouchVisualizerWindow.h; sourceTree = "<group>"; };
+		2D711A5F1C464193001ED080 /* COSTouchVisualizerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COSTouchVisualizerWindow.m; sourceTree = "<group>"; };
 		2DEAABE71C310DB900E6F52C /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEAABEB1C310DB900E6F52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DEAABED1C310DB900E6F52C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,33 @@
 		2DEAAC0B1C310DB900E6F52C /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEAAC0F1C310DB900E6F52C /* MyAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppUITests.m; sourceTree = "<group>"; };
 		2DEAAC111C310DB900E6F52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEAAC201C31101B00E6F52C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2DEAAC211C31101B00E6F52C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2DEAAC221C31101B00E6F52C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2DEAAC231C31101B00E6F52C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2DEAAC241C31101B00E6F52C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2DEAAC251C31101B00E6F52C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2DEAAC261C31101B00E6F52C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2DEAAC271C31101B00E6F52C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2DEAAC281C31101B00E6F52C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2DEAAC291C31101B00E6F52C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2DEAAC2A1C31101B00E6F52C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2DEAAC2B1C31101B00E6F52C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2DEAAC2C1C31101B00E6F52C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2DEAAC2D1C31101B00E6F52C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2DEAAC2E1C31101B00E6F52C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2DEAAC2F1C31101B00E6F52C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2DEAAC301C31101B00E6F52C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2DEAAC311C31101B00E6F52C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2DEAAC321C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2DEAAC331C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2DEAAC341C31101B00E6F52C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2DEAAC351C31101B00E6F52C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2DEAAC361C31101B00E6F52C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2DEAAC401C31107700E6F52C /* GJPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJPrefix.pch; sourceTree = "<group>"; };
+		2DEAAC411C313BB700E6F52C /* GJPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJPlayController.h; sourceTree = "<group>"; };
+		2DEAAC421C313BB700E6F52C /* GJPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJPlayController.m; sourceTree = "<group>"; };
+		2DF9DF7A1C33D00400118112 /* Final Fantasy XIV Heavensward-Original Sound Track 06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Final Fantasy XIV Heavensward-Original Sound Track 06.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +142,13 @@
 		2DEAABE91C310DB900E6F52C /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				2DEAAC1D1C31100C00E6F52C /* Main */,
 				2DEAABED1C310DB900E6F52C /* AppDelegate.h */,
 				2DEAABEE1C310DB900E6F52C /* AppDelegate.m */,
 				2DEAABF01C310DB900E6F52C /* ViewController.h */,
 				2DEAABF11C310DB900E6F52C /* ViewController.m */,
-				2DEAABF31C310DB900E6F52C /* Main.storyboard */,
-				2DEAABF61C310DB900E6F52C /* Assets.xcassets */,
-				2DEAABF81C310DB900E6F52C /* LaunchScreen.storyboard */,
-				2DEAABFB1C310DB900E6F52C /* Info.plist */,
+				2DEAAC411C313BB700E6F52C /* GJPlayController.h */,
+				2DEAAC421C313BB700E6F52C /* GJPlayController.m */,
 				2DEAABEA1C310DB900E6F52C /* Supporting Files */,
 			);
 			path = MyApp;
@@ -117,7 +157,13 @@
 		2DEAABEA1C310DB900E6F52C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2DF9DF7A1C33D00400118112 /* Final Fantasy XIV Heavensward-Original Sound Track 06.mp3 */,
+				2DEAABF31C310DB900E6F52C /* Main.storyboard */,
+				2DEAABF61C310DB900E6F52C /* Assets.xcassets */,
+				2DEAABF81C310DB900E6F52C /* LaunchScreen.storyboard */,
+				2DEAABFB1C310DB900E6F52C /* Info.plist */,
 				2DEAABEB1C310DB900E6F52C /* main.m */,
+				2DEAAC401C31107700E6F52C /* GJPrefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +184,54 @@
 				2DEAAC111C310DB900E6F52C /* Info.plist */,
 			);
 			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
+		2DEAAC1D1C31100C00E6F52C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2DEAAC1E1C31100C00E6F52C /* Lib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2DEAAC1E1C31100C00E6F52C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2D711A5E1C464193001ED080 /* COSTouchVisualizerWindow.h */,
+				2D711A5F1C464193001ED080 /* COSTouchVisualizerWindow.m */,
+				2DEAAC1F1C31101B00E6F52C /* Masonry */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2DEAAC1F1C31101B00E6F52C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2DEAAC201C31101B00E6F52C /* MASCompositeConstraint.h */,
+				2DEAAC211C31101B00E6F52C /* MASCompositeConstraint.m */,
+				2DEAAC221C31101B00E6F52C /* MASConstraint+Private.h */,
+				2DEAAC231C31101B00E6F52C /* MASConstraint.h */,
+				2DEAAC241C31101B00E6F52C /* MASConstraint.m */,
+				2DEAAC251C31101B00E6F52C /* MASConstraintMaker.h */,
+				2DEAAC261C31101B00E6F52C /* MASConstraintMaker.m */,
+				2DEAAC271C31101B00E6F52C /* MASLayoutConstraint.h */,
+				2DEAAC281C31101B00E6F52C /* MASLayoutConstraint.m */,
+				2DEAAC291C31101B00E6F52C /* Masonry.h */,
+				2DEAAC2A1C31101B00E6F52C /* MASUtilities.h */,
+				2DEAAC2B1C31101B00E6F52C /* MASViewAttribute.h */,
+				2DEAAC2C1C31101B00E6F52C /* MASViewAttribute.m */,
+				2DEAAC2D1C31101B00E6F52C /* MASViewConstraint.h */,
+				2DEAAC2E1C31101B00E6F52C /* MASViewConstraint.m */,
+				2DEAAC2F1C31101B00E6F52C /* NSArray+MASAdditions.h */,
+				2DEAAC301C31101B00E6F52C /* NSArray+MASAdditions.m */,
+				2DEAAC311C31101B00E6F52C /* NSArray+MASShorthandAdditions.h */,
+				2DEAAC321C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2DEAAC331C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2DEAAC341C31101B00E6F52C /* View+MASAdditions.h */,
+				2DEAAC351C31101B00E6F52C /* View+MASAdditions.m */,
+				2DEAAC361C31101B00E6F52C /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +296,7 @@
 		2DEAABDF1C310DB900E6F52C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GJ;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = WanRong;
 				TargetAttributes = {
@@ -243,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF9DF7B1C33D00400118112 /* Final Fantasy XIV Heavensward-Original Sound Track 06.mp3 in Resources */,
 				2DEAABFA1C310DB900E6F52C /* LaunchScreen.storyboard in Resources */,
 				2DEAABF71C310DB900E6F52C /* Assets.xcassets in Resources */,
 				2DEAABF51C310DB900E6F52C /* Main.storyboard in Resources */,
@@ -270,9 +366,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DEAAC3E1C31101B00E6F52C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2D711A601C464193001ED080 /* COSTouchVisualizerWindow.m in Sources */,
+				2DEAAC3C1C31101B00E6F52C /* MASViewConstraint.m in Sources */,
+				2DEAAC371C31101B00E6F52C /* MASCompositeConstraint.m in Sources */,
+				2DEAAC3D1C31101B00E6F52C /* NSArray+MASAdditions.m in Sources */,
 				2DEAABF21C310DB900E6F52C /* ViewController.m in Sources */,
+				2DEAAC431C313BB700E6F52C /* GJPlayController.m in Sources */,
 				2DEAABEF1C310DB900E6F52C /* AppDelegate.m in Sources */,
+				2DEAAC3A1C31101B00E6F52C /* MASLayoutConstraint.m in Sources */,
 				2DEAABEC1C310DB900E6F52C /* main.m in Sources */,
+				2DEAAC3F1C31101B00E6F52C /* View+MASAdditions.m in Sources */,
+				2DEAAC3B1C31101B00E6F52C /* MASViewAttribute.m in Sources */,
+				2DEAAC381C31101B00E6F52C /* MASConstraint.m in Sources */,
+				2DEAAC391C31101B00E6F52C /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +518,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Myapp/GJPrefix.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my2388.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +532,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Myapp/GJPrefix.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my2388.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +609,7 @@
 				2DEAAC161C310DB900E6F52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DEAAC171C310DB900E6F52C /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +618,7 @@
 				2DEAAC191C310DB900E6F52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DEAAC1A1C310DB900E6F52C /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +627,7 @@
 				2DEAAC1C1C310DB900E6F52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
