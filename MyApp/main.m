@@ -2,8 +2,8 @@
 //  main.m
 //  MyApp
 //
-//  Created by lrb on 15/12/28.
-//  Copyright © 2015年 WanRong. All rights reserved.
+//  Created by lrb on 18/07/20.
+//  Copyright © 2018年 liangruibin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
